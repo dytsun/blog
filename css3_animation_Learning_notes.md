@@ -4,9 +4,9 @@
 
 #### 定义和用法
 
-** transition 属性是一个简写属性，用于设置四个过渡属性：**
+**transition 属性是一个简写属性，用于设置四个过渡属性：**
 
-** transition: property duration timing-function delay; **
+**transition: property duration timing-function delay;**
 
 *  transition-property    规定设置过渡效果的 CSS 属性的名称。(值：none, all, propety)
 *  transition-duration    	规定完成过渡效果需要多少秒或毫秒。(值：5s)
@@ -17,9 +17,9 @@
 
 #### 定义和语法
 
-** animation 属性是一个简写属性，用于设置六个动画属性：**
+**animation 属性是一个简写属性，用于设置六个动画属性：**
 
-** animation: name duration timing-function delay iteration-count direction; **
+**animation: name duration timing-function delay iteration-count direction;**
 
 * animation-name    规定需要绑定到选择器的 keyframe 名称。(值：keyframename|none)
 * animation-duration    规定完成动画所花费的时间，以秒或毫秒计。(值：2s)
