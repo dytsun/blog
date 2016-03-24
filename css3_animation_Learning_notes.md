@@ -15,9 +15,9 @@
 
 ### CSS3 animation 属性
 
-#### animation 属性是一个简写属性，用于设置六个动画属性：
+#### 定义和语法
 
-#### 语法
+** animation 属性是一个简写属性，用于设置六个动画属性：**
 
 **animation: name duration timing-function delay iteration-count direction;**
 
