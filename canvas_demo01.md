@@ -49,4 +49,4 @@
 
 })();
 
- [1]: https://github.com/moondyt/blog/blob/master/pic_volume.png
+ [1]: https://github.com/moondyt/blog/blob/master/img/pic_volume.png
