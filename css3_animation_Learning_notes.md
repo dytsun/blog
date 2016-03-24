@@ -5,6 +5,7 @@
 #### 定义和用法
 
 **transition 属性是一个简写属性，用于设置四个过渡属性：**
+
 **transition: property duration timing-function delay;**
 
 *  transition-property    规定设置过渡效果的 CSS 属性的名称。(值：none, all, propety)
