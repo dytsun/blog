@@ -1,1 +1,12 @@
 ## css3 animation Learning notes
+
+### CSS3 transition 属性
+
+定义和用法
+> transition 属性是一个简写属性，用于设置四个过渡属性：
+> transition: property duration timing-function delay;
+
+*  transition-property    规定设置过渡效果的 CSS 属性的名称。
+*  transition-duration    	规定完成过渡效果需要多少秒或毫秒。
+*  transition-timing-function    	规定速度效果的速度曲线。
+*  transition-delay   	定义过渡效果何时开始。
