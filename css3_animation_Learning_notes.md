@@ -24,6 +24,10 @@
 
 **animation: name duration timing-function delay iteration-count direction;**
 
+> 通过规定至少以下两项 CSS3 动画属性，即可将动画绑定到选择器：
+> 规定动画的名称
+> 规定动画的时长
+
 * animation-name    规定需要绑定到选择器的 keyframe 名称。(值：keyframename|none)
 
 * animation-duration    规定完成动画所花费的时间，以秒或毫秒计。(值：2s)
