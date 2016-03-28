@@ -9,23 +9,23 @@
 
  var offsetY = canvasOffset.top;
 
- var myCircle = {
-     x: 150,
-     y: 150,
-     radius: 25,
-     rr: 25 * 25, // radius squared
-     hovercolor: "red",
-     blurcolor: "green",
-     isHovering: false
- }
+     var myCircle = {
+         x: 150,
+         y: 150,
+         radius: 25,
+         rr: 25 * 25, // radius squared
+         hovercolor: "red",
+         blurcolor: "green",
+         isHovering: false
+     }
 
- function drawCircle(circle) {
-     ctx.beginPath();
-     ctx.arc(circle.x, circle.y, circle.radius, 0, Math.PI * 2);
-     ctx.closePath();
-     ctx.fillStyle = circle.isHovering ? circle.hovercolor : circle.blurcolor;
-     ctx.fill();
- }
+     function drawCircle(circle) {
+         ctx.beginPath();
+         ctx.arc(circle.x, circle.y, circle.radius, 0, Math.PI * 2);
+         ctx.closePath();
+         ctx.fillStyle = circle.isHovering ? circle.hovercolor : circle.blurcolor;
+         ctx.fill();
+     }
 
  drawCircle(myCircle);
 
