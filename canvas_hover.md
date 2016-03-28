@@ -3,6 +3,7 @@
 > var canvasOffset = $("#canvas").offset();
 > var offsetX = canvasOffset.left;
 > var offsetY = canvasOffset.top;
+
 > var myCircle = {
 >     x: 150,
 >     y: 150,
@@ -12,6 +13,7 @@
 >     blurcolor: "green",
 >     isHovering: false
 > }
+
 > function drawCircle(circle) {
 >     ctx.beginPath();
 >     ctx.arc(circle.x, circle.y, circle.radius, 0, Math.PI * 2);
@@ -19,7 +21,9 @@
 >     ctx.fillStyle = circle.isHovering ? circle.hovercolor : circle.blurcolor;
 >     ctx.fill();
 > }
+
 > drawCircle(myCircle);
+
 > function handleMouseMove(e) {
 >     mouseX = parseInt(e.clientX - offsetX);
 >     mouseY = parseInt(e.clientY - offsetY);
@@ -40,6 +44,7 @@
 >         }
 >     }
 > }
+
 > $("#canvas").mousemove(function (e) {
 >     handleMouseMove(e);
 > });
