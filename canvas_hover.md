@@ -1,13 +1,13 @@
-
- var canvas = document.getElementById("canvas");
-
- var ctx = canvas.getContext("2d");
-
- var canvasOffset = $("#canvas").offset();
-
- var offsetX = canvasOffset.left;
-
- var offsetY = canvasOffset.top;
+    
+     var canvas = document.getElementById("canvas");
+    
+     var ctx = canvas.getContext("2d");
+    
+     var canvasOffset = $("#canvas").offset();
+    
+     var offsetX = canvasOffset.left;
+    
+     var offsetY = canvasOffset.top;
 
      var myCircle = {
          x: 150,
@@ -27,29 +27,29 @@
          ctx.fill();
      }
 
- drawCircle(myCircle);
-
- function handleMouseMove(e) {
-     mouseX = parseInt(e.clientX - offsetX);
-     mouseY = parseInt(e.clientY - offsetY);
-     var dx = mouseX - myCircle.x;
-     var dy = mouseY - myCircle.y;
-     // math to test if mouse is inside circle
-     if (dx * dx + dy * dy < myCircle.rr) {
-         // change to hovercolor if previously outside
-         if (!myCircle.isHovering) {
-             myCircle.isHovering = true;
-             drawCircle(myCircle);
-         }
-     } else {
-         // change to blurcolor if previously inside
-         if (myCircle.isHovering) {
-             myCircle.isHovering = false;
-             drawCircle(myCircle);
+     drawCircle(myCircle);
+    
+     function handleMouseMove(e) {
+         mouseX = parseInt(e.clientX - offsetX);
+         mouseY = parseInt(e.clientY - offsetY);
+         var dx = mouseX - myCircle.x;
+         var dy = mouseY - myCircle.y;
+         // math to test if mouse is inside circle
+         if (dx * dx + dy * dy < myCircle.rr) {
+             // change to hovercolor if previously outside
+             if (!myCircle.isHovering) {
+                 myCircle.isHovering = true;
+                 drawCircle(myCircle);
+             }
+         } else {
+             // change to blurcolor if previously inside
+             if (myCircle.isHovering) {
+                 myCircle.isHovering = false;
+                 drawCircle(myCircle);
+             }
          }
      }
- }
-
- $("#canvas").mousemove(function (e) {
-     handleMouseMove(e);
- });
+    
+     $("#canvas").mousemove(function (e) {
+         handleMouseMove(e);
+     });
