@@ -1,7 +1,12 @@
+
 > var canvas = document.getElementById("canvas");
+
 > var ctx = canvas.getContext("2d");
+
 > var canvasOffset = $("#canvas").offset();
+
 > var offsetX = canvasOffset.left;
+
 > var offsetY = canvasOffset.top;
 
 > var myCircle = {
