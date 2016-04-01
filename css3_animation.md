@@ -70,7 +70,7 @@
   
 *  rotate(angle)    定义 2D 旋转，在参数中规定角度。
  
-*skew(x-angle,y-angle)   	定义沿着 X 和 Y 轴的 2D 倾斜转换。
+*  skew(x-angle,y-angle)   	定义沿着 X 和 Y 轴的 2D 倾斜转换。
 
 
 
