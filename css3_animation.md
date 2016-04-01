@@ -1,4 +1,4 @@
-## css3 animation Learning notes
+## css3 animation
 
 ### CSS3 transition 属性
 
@@ -44,7 +44,33 @@
 
 * animation-fill-mode    (值：none不改变默认行为；forwards当动画完成后，保持最后一个属性值；backwards在 animation-delay 所指定的一段时间内，在动画显示之前，应用开始属性值；both向前和向后填充模式都被应用)
 
+### CSS3 transform 属性
 
+#### 定义和语法
+
+**transform 属性向元素应用 2D 或 3D 转换。该属性允许我们对元素进行旋转、缩放、移动或倾斜。**
+
+**transform: none|transform-functions;**
+
+*  none    	定义不进行转换。
+
+*  matrix(n,n,n,n,n,n)    		定义 2D 转换，使用六个值的矩阵。
+
+*  translate(x,y)    	定义 2D 转换。
+  
+*  translateX(x)    定义转换，只是用 X 轴的值。
+  
+*  translateY(y)    定义转换，只是用 Y 轴的值。
+ 
+*  scale(x,y)    定义 2D 缩放转换。
+  
+*  scaleX(x)    通过设置 X 轴的值来定义缩放转换。
+  
+*  scaleZ(z)    	通过设置 Y 轴的值来定义缩放转换。
+  
+*  rotate(angle)    定义 2D 旋转，在参数中规定角度。
+ 
+*skew(x-angle,y-angle)   	定义沿着 X 和 Y 轴的 2D 倾斜转换。
 
 
 
