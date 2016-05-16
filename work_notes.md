@@ -7,6 +7,8 @@
 3. angular项目中引用插件，需要在index.module.js中注册插件。
 
 4. angular项目中新建一个模块：
+
  > 新建模块文件，在html中配置class选择器外层并在css外层中写入，js中配置controller。
+
  > 在index.route.js中加入路由
 
