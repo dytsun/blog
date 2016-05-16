@@ -14,5 +14,7 @@
  
  > 在侧边栏菜单中配置模块地址入口。
  
+ > translation.js文件中配置中英文翻译。
+ 
  > cmd中执行gulp serve。
 
