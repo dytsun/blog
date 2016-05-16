@@ -10,5 +10,9 @@
 
  > 新建模块文件，在html中配置class选择器外层并在css外层中写入，js中配置controller。
 
- > 在index.route.js中加入路由
+ > 在index.route.js中加入路由。
+ 
+ > 在侧边栏菜单中配置模块地址入口。
+ 
+ > cmd中执行gulp serve。
 
