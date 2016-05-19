@@ -1,16 +1,23 @@
-CSS3的属性为什么要带前缀
+### CSS3的属性为什么要带前缀
 
 使用过CSS3属性的同学都知道，CSS3属性都需要带各浏览器的前缀，甚至到现在，依然还有很多属性需要带前缀。这是为什么呢？
 
 我的理解是，浏览器厂商以前就一直在实施CSS3，但它还未成为真正的标准。为此，当一些CSS3样式语法还存在波动时，它们提供针对浏览器的前缀。现在主要流行的浏览器内核主要有：
 
-Trident内核：主要代表为IE浏览器
-Gecko内核：主要代表为Firefox
-Presto内核：主要代表为Opera
-Webkit内核：产要代表为Chrome和Safari
+> Trident内核：主要代表为IE浏览器
+
+> Gecko内核：主要代表为Firefox
+
+> Presto内核：主要代表为Opera
+
+> Webkit内核：产要代表为Chrome和Safari
+
 而这些不同内核的浏览器，CSS3属性（部分需要添加前缀的属性）对应需要添加不同的前缀，也将其称之为浏览器的私有前缀，添加上私有前缀之后的CSS3属性可以说是对应浏览器的私有属性：
 
-Trident内核：前缀为-ms
-Gecko内核：前缀为-moz
-Presto内核：前缀为-o
-Webkit内核：前缀为-webkit
+> Trident内核：前缀为-ms
+
+> Gecko内核：前缀为-moz
+
+> Presto内核：前缀为-o
+
+> Webkit内核：前缀为-webkit
