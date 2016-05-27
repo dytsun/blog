@@ -18,8 +18,11 @@
  
  > cmd中执行gulp serve。
 
-5. 
-
+5. 网页打印，@media print中设置打印页面的css
+  
+  >@page {
+  size: A4 portrait;
+}
 6. 
 
 7. 
