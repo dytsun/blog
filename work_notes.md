@@ -23,6 +23,9 @@
   > 横向打印设置 @page {
   size: A4 portrait;
 }
-6. 
+6. angular页面传参：
+  > 在index.route页面中配置url参数比如：url:'/demo/:code'.
+  
+  > 用$state.params.code获取参数code.
 
 7. 
