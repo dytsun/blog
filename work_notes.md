@@ -20,7 +20,7 @@
 
 5. 网页打印，@media print中设置打印页面的css
   
-  >@page {
+  > 横向打印设置 @page {
   size: A4 portrait;
 }
 6. 
