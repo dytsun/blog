@@ -31,7 +31,7 @@
 7. Coding 上 clone一个项目：
   > git clone SSh地址（HTTPS地址需要输入账号与密码，SSH地址不需要）
 
-  > npm install --registry=https://registry.npm.taobao.org(使用淘宝镜像安装包文件)
+  > npm install --registry = https://registry.npm.taobao.org (使用淘宝镜像安装包文件)
   
   > bower install (下载包文件)
   
