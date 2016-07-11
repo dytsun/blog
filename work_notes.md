@@ -40,30 +40,17 @@
 8. 本地环境不能直接运行php文件，比如浏览器版本过低提示文件，本地不能访问。
 
 9. 扫描二维码判断微信，ios，Android跳转：
-  > git clone SSh地址（HTTPS地址需要输入账号与密码，SSH地址不需要）
-
-  > npm install --registry = https://registry.npm.taobao.org (使用淘宝镜像安装包文件)
-  
-  > bower install (下载包文件)
-  
-  >gulp serve 运行
-
-9.扫描二维码判断微信，ios，Android跳转：
- 
   > if (ua.indexOf('micromessenger') > 0) { //需对所有 android 系统 UA 信息进行判断
-  
-  >  document.write('微信中无法直接下载 App，请点击右上角菜单，选择"在浏览器中打开"下载 App 。');
+
+  > document.write('微信中无法直接下载 App，请点击右上角菜单，选择"在浏览器中打开"下载 App 。');
   
   > } else if (ua.indexOf('iphone') > 0) { //需对所有 ios 系统 UA 信息进行判断
   
-  >   window.location.href = ios_down_url;
+  >  window.location.href = ios_down_url;
   
   > } else if (ua.indexOf('android') > 0) {
   
   >   window.location.href = android_down_url;
   
   > }
-
-
-
-
+  
