@@ -54,3 +54,8 @@
   
   > }
   
+  10.ie8下css:background-size:cover不兼容，解决办法：
+  > filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/banner1.png',sizingMethod='scale');
+   
+   
+  
