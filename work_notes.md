@@ -56,20 +56,35 @@
   
 10.ie8下css:background-size:cover不兼容，解决办法：
   > filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/banner1.png',sizingMethod='scale');
-   
+
 11.win10 配置git环境，coding git代码托管：
   > (1)下载安装git
-  
+
   > (2)双击打开git/git-bash程序
-  
+
   > (3)在git-bash界面中，输入git config --global user.name "me",运行。
-  
+
   > (4)在git-bash界面中，输入git congig --global user.email "me@.com"。
-  
+
   > (5)生成一个新的SSH公钥，在git-bash界面中，输入ssh-keygen -t rsa -C "me@.com",此时在C：/user/administrator中生成.ssh文件。
-  
+
   > (6)在git-bash界面中输入ssh -t git@git.coding.net,测试建立链接会要求信任主机。
-  
+
   > (7)在C：/user/administrator中生成.ssh文件，打开 id_rsa.pub 文件（或执行 $cat id_rsa.pub ），复制其中全部内容，添加到账户“SSH   公钥”页面 中，公钥名称可以随意起名字。完成后点击“添加”，然后输入密码或动态码即可添加完成。
-   
+  
+  > (8)配置参考https://coding.net/help/doc/git/ssh-key.html
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
