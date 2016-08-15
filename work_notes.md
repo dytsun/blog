@@ -74,6 +74,11 @@
   
   > (8)配置参考https://coding.net/help/doc/git/ssh-key.html
   
+ 12.管理员身份删除文件夹
+  > (1)打开管理员命令行界面
+  
+  > (2)rd /s/q C:\Windows.old，回车
+  
   
   
   
