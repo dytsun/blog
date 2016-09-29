@@ -79,6 +79,9 @@
   
   > (2)rd /s/q C:\Windows.old，回车
   
+ 13.chrome浏览器屏蔽input默认提示：
+  > form后加novalidate属性。
+  
   
   
   
