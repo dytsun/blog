@@ -13,9 +13,15 @@
   cat.prototype={
     food:"fish",
     say: function(){
-    alert("I love "+this.food);
+    console.log("I love "+this.food);
     } 
   }
+  
   var blackCat = new cat;
   blackCat.say();
+  // I love fish
+  
+  var dog = {food:"bone"}
+  blackCat.say.call(dog);
+  // I love bone
   ```
