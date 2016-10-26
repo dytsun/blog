@@ -5,21 +5,17 @@
  > While the syntax of this function is almost identical to that of apply(), the fundamental difference is that call() accepts an argument list, while apply() accepts a single array of arguments.
  
 ### for example
- 
- > function cat(){
- 
- > }
- 
- > cat.prototype={
- 
- > food:"fish",
- 
- > say: function(){
- 
- > alert("I love "+this.food);
- 
- > }
- > }
 
- > var blackCat = new cat;
- > blackCat.say();
+  ```html
+  function cat(){
+
+  }
+  cat.prototype={
+    food:"fish",
+    say: function(){
+    alert("I love "+this.food);
+    } 
+  }
+  var blackCat = new cat;
+  blackCat.say();
+  ```
