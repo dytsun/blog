@@ -4,7 +4,7 @@
  
  > While the syntax of this function is almost identical to that of apply(), the fundamental difference is that call() accepts an argument list, while apply() accepts a single array of arguments.
  
- ### for example
+### for example
  
  > function cat(){
  
@@ -19,9 +19,7 @@
  > alert("I love "+this.food);
  
  > }
- 
  > }
 
  > var blackCat = new cat;
- 
  > blackCat.say();
