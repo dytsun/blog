@@ -82,6 +82,11 @@
  13.chrome浏览器屏蔽input默认提示：
   > form后加novalidate属性。
   
+  > input后加 autocomplete="off"属性，阻止autocomplete行为。
+
+
+
+  
   
   
   
