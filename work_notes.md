@@ -83,6 +83,13 @@
   > form后加novalidate属性。
   
   > input后加 autocomplete="off"属性，阻止autocomplete行为。
+  
+ 14.win10添加开机启动项：
+  > 打开文件夹 C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp 直接复制到地址栏里面打开即可。
+  
+  > 复制启动项的快捷方式，粘贴到启动文件夹中。
+  
+  > 命令行中运行 msconfig.查看启动项是否添加成功。
 
 
 
