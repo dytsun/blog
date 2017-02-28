@@ -92,17 +92,17 @@
   > 命令行中运行 msconfig.查看启动项是否添加成功。
 
  15.闭包作用域：
-  > for (var i=1; i<=5; i++) {
-
-  >   let j = i; // 呀，给闭包的块儿作用域！
-
-  >   setTimeout( function timer(){
-
-  >     console.log( j );
-
-  >   }, j*1000 );
+   > for (var i=1; i<=5; i++) {
   
-  > }  //每隔1秒输出1，2，3，4，5
+   >   let j = i; // 呀，给闭包的块儿作用域！
+  
+   >   setTimeout( function timer(){
+  
+   >     console.log( j );
+  
+   >   }, j*1000 );
+  
+   > }  //每隔1秒输出1，2，3，4，5
   
   
   
