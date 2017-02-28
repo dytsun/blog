@@ -54,10 +54,10 @@
   
   > }
   
-10.ie8下css:background-size:cover不兼容，解决办法：
+10. ie8下css:background-size:cover不兼容，解决办法：
   > filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/banner1.png',sizingMethod='scale');
 
-11.win10 配置git环境，coding git代码托管：
+11. win10 配置git环境，coding git代码托管：
   > (1)下载安装git
 
   > (2)双击打开git/git-bash程序
@@ -74,7 +74,7 @@
   
   > (8)配置参考https://coding.net/help/doc/git/ssh-key.html
   
- 12.管理员身份删除文件夹
+ 12. 管理员身份删除文件夹
   > (1)打开管理员命令行界面
   
   > (2)rd /s/q C:\Windows.old，回车
@@ -84,14 +84,14 @@
   
   > input后加 autocomplete="off"属性，阻止autocomplete行为。
   
- 14.win10添加开机启动项：
+ 14. win10添加开机启动项：
   > 打开文件夹 C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp 直接复制到地址栏里面打开即可。
   
   > 复制启动项的快捷方式，粘贴到启动文件夹中。
   
   > 命令行中运行 msconfig.查看启动项是否添加成功。
 
- 15.闭包作用域：
+ 15. 闭包作用域：
    > for (var i=1; i<=5; i++) {
   
    >   let j = i; // 呀，给闭包的块儿作用域！
