@@ -111,6 +111,18 @@
   
   > 加入下面内容: registry = http://registry.npm.taobao.org 即：替换为淘宝镜像。
   
+4. angular项目中新建一个模块：
+
+ > 新建模块文件，在html中配置class选择器外层并在css外层中写入，js中配置controller。
+
+ > 在index.route.js中加入路由。
+ 
+ > 在侧边栏菜单中配置模块地址入口。
+ 
+ > translation.js文件中配置中英文翻译。
+ 
+ > cmd中执行gulp serve。
+  
   
   
   
