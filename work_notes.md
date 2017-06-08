@@ -105,7 +105,7 @@
   
   > }  //每隔1秒输出1，2，3，4，5
   
- 16.npm镜像默认修改：
+ 16. npm镜像默认修改：
  
   > 打开C:\Users\Administrator中.npmrc文件
   
