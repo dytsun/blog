@@ -1,5 +1,9 @@
-#3 add array
-.splice(key + 1, 0, newItem)
+### Javascript Array Methods 
 
-#3 delete array
-.splice(key, 1)
+1. add array
+
+> .splice(key + 1, 0, newItem)
+
+2. delete array
+
+> .splice(key, 1)
