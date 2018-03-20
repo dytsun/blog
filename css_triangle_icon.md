@@ -1,6 +1,6 @@
-### 三角形图标CSS实现
+## 三角形图标CSS实现
 
-#### <div class="triangle"></div>
+### <div class="triangle"></div>
 
 #### css
     .triangle{
