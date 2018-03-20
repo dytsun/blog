@@ -1,8 +1,9 @@
 ## 三角形图标CSS实现
 
-### <div class="triangle"></div>
+### HTML
+    <div class="triangle"></div>
 
-#### css
+#### CSS
     .triangle{
        width: 11px;
        position: relative;
@@ -23,6 +24,4 @@
         top: -13px;
         left: -2px;
     }
-
-
 
