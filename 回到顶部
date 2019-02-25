@@ -1,5 +1,5 @@
 ```javascript
-goTop () {
+backTop () {
       // document.documentElement.scrollTop = document.body.scrollTop = 0
       let timer = setInterval(function () {
         let osTop = document.documentElement.scrollTop || document.body.scrollTop
