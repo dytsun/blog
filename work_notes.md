@@ -111,6 +111,23 @@
 
  > 加入下面内容: registry = http://registry.npm.taobao.org 即：替换为淘宝镜像。
  
+ 19. Enter回车键事件：
+ 
+ > $(document).keypress(function (e) {
+ 
+ >    if (e.which === 13) {
+ 
+ >        if (that.$route.path === '/index/login') {
+ 
+ >             that.submit()
+ 
+ >        }
+ 
+ >    }
+ 
+ > })
+ 
+ 
  
 
   
